@@ -51,7 +51,7 @@ print("Data correctly read")
 ds = BT.DAV(ds,mer_gradient_filter = True, tyrlis_correction=True)
 print(np.amax(ds['DAV_freq']))
 print("DAV function correctly executed")
-ds,dic_unfilt = BT.ContourTracking2D(ds,var_name = "DAV",max_dist=1000)
+ds,dic_unfilt = BT.ContourTracking2D(ds,var_name = "DAV",max_dist=1400)
 #saving temporary data
 ds.to_netcdf(fn_out_unfilt)
 np.save(fn_dic_unfilt,dic_unfilt)
