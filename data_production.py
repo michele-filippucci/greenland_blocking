@@ -35,7 +35,7 @@ work_dic='/emmy-noether/home/mf671/DATA/ERA5/gr_tracking/'
 fn_out_unfilt = work_dic + "ERA5_northem_2.5x2.5_zg_DAV_tracked_unfilt_daily_1940-2023.nc"
 fn_out = work_dic + "ERA5_northem_2.5x2.5_zg_DAV_tracked_daily_1940-2023.nc"
 fn_dic_unfilt = work_dic + "dictionaries/ERA5_northem_2.5x2.5_zg_DAV_tracked_unfilt_daily_1940-2023_DIC.npy"
-fn_dic = work_dic + "dictionaries/ERA5_northem_2.5x2.5_zg_DAV_tracked_daily_1940-2023_DIC.npy"
+fn_dic = work_dic + "dictionaries/ERA5_northem_2.5x2.5_zg_DAV_tracked_daily_1940-2023_DIC_pers3.npy"
 '''
 data_dir='/emmy-noether/home/mf671/DATA/ERA5/geop/'
 fn = data_dir + "ERA5_northem_2.5x2.5_zg500_daily_1960-1963.nc"
